@@ -26,7 +26,7 @@ void Maze::fill() {
     for( int i=1; i< getSize()-1; i++ ) {
         mp[i][0] = 7;
         for( int j=1; j< getSize()-1; j++ ) {
-            mp[i][j] = rand() % 2;
+            mp[i][j] = rand() % 2; //not a great random function
         }
         //mp[i][9] = 7;
         mp[i][foo] =7;

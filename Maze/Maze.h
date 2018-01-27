@@ -20,7 +20,7 @@ enum Directions { Up = 0, Down, Left, Right };
 class Maze {
 public:
     Maze(int sz) {
-        std::cout << "Maze Constructor called";
+        //std::cout << "Maze Constructor called";
         length = sz;
         fill();
         

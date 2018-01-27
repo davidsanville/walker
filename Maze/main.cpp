@@ -11,10 +11,10 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, Maze!\n";
+    //std::cout << "Hello, Maze!\n";
     
     Maze foo(10);
-    std::cout << foo.getSize();
+   // std::cout << foo.getSize();
     foo.displayEnumerated();
     return 0;
 }
