@@ -23,8 +23,6 @@ public:
         //std::cout << "Maze Constructor called";
         length = sz;
         fill();
-        
-
     }
     
 //getter functions

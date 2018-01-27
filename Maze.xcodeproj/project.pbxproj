@@ -10,6 +10,8 @@
 		F19920C6201BA5CC008E5A55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920C5201BA5CC008E5A55 /* main.cpp */; };
 		F19920CD201BA712008E5A55 /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920CC201BA712008E5A55 /* Maze.cpp */; };
 		F19920D0201C19E9008E5A55 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920CF201C19E9008E5A55 /* utils.cpp */; };
+		F19920D3201C204C008E5A55 /* Evolve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920D1201C204C008E5A55 /* Evolve.cpp */; };
+		F19920D6201C2194008E5A55 /* Crawler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920D4201C2194008E5A55 /* Crawler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,10 @@
 		F19920CC201BA712008E5A55 /* Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
 		F19920CE201BA747008E5A55 /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
 		F19920CF201C19E9008E5A55 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		F19920D1201C204C008E5A55 /* Evolve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Evolve.cpp; sourceTree = "<group>"; };
+		F19920D2201C204C008E5A55 /* Evolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Evolve.h; sourceTree = "<group>"; };
+		F19920D4201C2194008E5A55 /* Crawler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Crawler.cpp; sourceTree = "<group>"; };
+		F19920D5201C2194008E5A55 /* Crawler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Crawler.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				F19920C5201BA5CC008E5A55 /* main.cpp */,
+				F19920D1201C204C008E5A55 /* Evolve.cpp */,
+				F19920D2201C204C008E5A55 /* Evolve.h */,
+				F19920D4201C2194008E5A55 /* Crawler.cpp */,
+				F19920D5201C2194008E5A55 /* Crawler.hpp */,
 				F19920CF201C19E9008E5A55 /* utils.cpp */,
 				F19920CC201BA712008E5A55 /* Maze.cpp */,
 				F19920CE201BA747008E5A55 /* Maze.h */,
@@ -127,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19920D6201C2194008E5A55 /* Crawler.cpp in Sources */,
+				F19920D3201C204C008E5A55 /* Evolve.cpp in Sources */,
 				F19920D0201C19E9008E5A55 /* utils.cpp in Sources */,
 				F19920CD201BA712008E5A55 /* Maze.cpp in Sources */,
 				F19920C6201BA5CC008E5A55 /* main.cpp in Sources */,
