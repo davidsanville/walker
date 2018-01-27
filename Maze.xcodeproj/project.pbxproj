@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F19920C6201BA5CC008E5A55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920C5201BA5CC008E5A55 /* main.cpp */; };
+		F19920CD201BA712008E5A55 /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920CC201BA712008E5A55 /* Maze.cpp */; };
+		F19920D0201C19E9008E5A55 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19920CF201C19E9008E5A55 /* utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		F19920C2201BA5CC008E5A55 /* Maze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maze; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19920C5201BA5CC008E5A55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F19920CC201BA712008E5A55 /* Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		F19920CE201BA747008E5A55 /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		F19920CF201C19E9008E5A55 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				F19920C5201BA5CC008E5A55 /* main.cpp */,
+				F19920CF201C19E9008E5A55 /* utils.cpp */,
+				F19920CC201BA712008E5A55 /* Maze.cpp */,
+				F19920CE201BA747008E5A55 /* Maze.h */,
 			);
 			path = Maze;
 			sourceTree = "<group>";
@@ -119,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19920D0201C19E9008E5A55 /* utils.cpp in Sources */,
+				F19920CD201BA712008E5A55 /* Maze.cpp in Sources */,
 				F19920C6201BA5CC008E5A55 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
