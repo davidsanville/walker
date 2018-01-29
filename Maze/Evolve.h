@@ -11,10 +11,13 @@
 
 #include <stdio.h>
 
+#include "Maze.h"
+#include "Crawler.hpp"
+
 class Evolve {
     
 public:
-    autowalk()//should take a Crawler as an arguement
-}
+    void simulate(Maze&, Crawler);//should take a Crawler as an arguement
+};
 
 #endif /* Evolve_h */

@@ -11,13 +11,16 @@
 
 #include "Maze.h"
 #include <stdio.h>
+//#include <stack>
 
 class Crawler {
     void walk(Maze&);
-    void walk(int x,int y,Maze);
+    void walk(int x,int y);
+    void popWalk(); //just return top of genome stack
     
 private:
     int genome[128];
+    //stack genome;
 };
 
 #endif /* Crawler_hpp */

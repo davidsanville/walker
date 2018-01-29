@@ -7,3 +7,10 @@
 //
 
 //#include "Evolve.h"
+
+#include "Evolve.h"
+
+void Evolve::simulate(Maze&, Crawler) {
+    //Crawler calls his internal autowalk, recursively on the dynamic maze time
+    //he either fails or passes (count num steps)
+}
