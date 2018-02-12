@@ -8,13 +8,22 @@
 
 #include <iostream>
 #include "Maze.h"
+#include "Crawler.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, Maze!\n";
     
-    Maze foo(10);
+    Maze mz(10);
    // std::cout << foo.getSize();
-    foo.displayEnumerated();
+    mz.displayEnumerated();
+    
+    Crawler foo;
+    foo.displayGenomeArr();
+    //implement an array based popwalk for crawler... using Maze's isValidMove function
+    
+    
+    
+    
     return 0;
 }

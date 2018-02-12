@@ -10,7 +10,10 @@
 
 #include "Evolve.h"
 
-void Evolve::simulate(Maze&, Crawler) {
+void Evolve::simulate(Maze& m, Crawler q) {
+    
+    m.isValidMove(q.popWalkArr());
+    
     //Crawler calls his internal autowalk, recursively on the dynamic maze time
     //he either fails or passes (count num steps)
 }

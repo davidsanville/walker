@@ -28,6 +28,7 @@ public:
 //getter functions
 double getSize();
 void displayEnumerated();
+bool isValidMove(int); //make implementation
     
 private:
     int length;

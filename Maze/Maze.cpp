@@ -61,3 +61,8 @@ void Maze::displayEnumerated() {
         std::cout <<'\n';
     }
 }
+
+bool Maze::isValidMove(int) {
+    
+    return false;
+}

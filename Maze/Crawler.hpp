@@ -11,16 +11,30 @@
 
 #include "Maze.h"
 #include <stdio.h>
-//#include <stack>
+#include <stack>
+
+const int genomeSize = 64;
 
 class Crawler {
+public:
+    Crawler() {
+        for (int i = 0; i < genomeSize; i++) { genomeArr[i] = rand() % 4; } //array filling upon construction
+        //const int randfoo = rand() %4;
+       // genomeStack.push(randfoo); //redundant stack filling
+    }
     void walk(Maze&);
     void walk(int x,int y);
-    void popWalk(); //just return top of genome stack
+    int popWalkArr(); //just return top of genome stack
+    //not required, for sandboxing
+    void displayGenomeArr();
     
 private:
-    int genome[128];
-    //stack genome;
+    int genomeArr[genomeSize];
+    std::stack<int> genomeStack();
 };
 
 #endif /* Crawler_hpp */
+
+
+
+

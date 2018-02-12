@@ -8,11 +8,18 @@
 
 #include "Crawler.hpp"
 
-void Crawler::popWalk() {
+int Crawler::popWalkArr() {
     
+  int i = 0;
+    while ( i < genomeSize) {
+        std::cout << genomeArr[i];
+        //int direc = genomeArr[i];
+       // if(isValidMove(int x, int y, int direc)) { std::cout << "made it to if" << std::endl;}
+        i++;
+        
+    }
     
-    //return genome.pop();
-    return;
+    return i;
 }
 
 /*
@@ -25,3 +32,8 @@ void Crawler::walk(int x,int y) {
 }
 
 */
+
+
+void Crawler::displayGenomeArr () {
+    for (int i = 0; i < genomeSize; i++) { std::cout << genomeArr[i] << '\n'; }
+}
